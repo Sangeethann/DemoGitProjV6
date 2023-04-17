@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-01T11:05:08Z" name="Default suite" finished-at="2023-03-01T11:05:32Z" duration-ms="23895">
+    <groups>
+    </groups>
+    <test started-at="2023-03-01T11:05:08Z" name="Default test" finished-at="2023-03-01T11:05:32Z" duration-ms="23895">
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:08Z" name="beforeTest" finished-at="2023-03-01T11:05:20Z" duration-ms="11243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="register()[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:20Z" name="register" finished-at="2023-03-01T11:05:21Z" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:21Z" name="afterMethod" finished-at="2023-03-01T11:05:22Z" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=register status=SUCCESS method=RegisterTest.register()[pri:0, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormFirstNameTest()[pri:1, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:22Z" name="registerFillFormFirstNameTest" finished-at="2023-03-01T11:05:22Z" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormFirstNameTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:22Z" name="afterMethod" finished-at="2023-03-01T11:05:22Z" duration-ms="463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormFirstNameTest status=SUCCESS method=RegisterTest.registerFillFormFirstNameTest()[pri:1, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormLastNameTest()[pri:2, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:22Z" name="registerFillFormLastNameTest" finished-at="2023-03-01T11:05:23Z" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormLastNameTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:23Z" name="afterMethod" finished-at="2023-03-01T11:05:23Z" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormLastNameTest status=SUCCESS method=RegisterTest.registerFillFormLastNameTest()[pri:2, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormPhoneTest()[pri:3, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:23Z" name="registerFillFormPhoneTest" finished-at="2023-03-01T11:05:23Z" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormPhoneTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:23Z" name="afterMethod" finished-at="2023-03-01T11:05:23Z" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormPhoneTest status=SUCCESS method=RegisterTest.registerFillFormPhoneTest()[pri:3, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormEmailTest()[pri:4, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:23Z" name="registerFillFormEmailTest" finished-at="2023-03-01T11:05:23Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormEmailTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:23Z" name="afterMethod" finished-at="2023-03-01T11:05:24Z" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormEmailTest status=SUCCESS method=RegisterTest.registerFillFormEmailTest()[pri:4, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormAddressTest()[pri:5, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:24Z" name="registerFillFormAddressTest" finished-at="2023-03-01T11:05:24Z" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormAddressTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:24Z" name="afterMethod" finished-at="2023-03-01T11:05:24Z" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormAddressTest status=SUCCESS method=RegisterTest.registerFillFormAddressTest()[pri:5, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormCityTest()[pri:6, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:24Z" name="registerFillFormCityTest" finished-at="2023-03-01T11:05:24Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormCityTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:24Z" name="afterMethod" finished-at="2023-03-01T11:05:24Z" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormCityTest status=SUCCESS method=RegisterTest.registerFillFormCityTest()[pri:6, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormStateTest()[pri:7, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:24Z" name="registerFillFormStateTest" finished-at="2023-03-01T11:05:25Z" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormStateTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:25Z" name="afterMethod" finished-at="2023-03-01T11:05:25Z" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormStateTest status=SUCCESS method=RegisterTest.registerFillFormStateTest()[pri:7, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormPostalCodeTest()[pri:8, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:25Z" name="registerFillFormPostalCodeTest" finished-at="2023-03-01T11:05:25Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormPostalCodeTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:25Z" name="afterMethod" finished-at="2023-03-01T11:05:25Z" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormPostalCodeTest status=SUCCESS method=RegisterTest.registerFillFormPostalCodeTest()[pri:8, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormCountryTest()[pri:9, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:25Z" name="registerFillFormCountryTest" finished-at="2023-03-01T11:05:25Z" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormCountryTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:25Z" name="afterMethod" finished-at="2023-03-01T11:05:26Z" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormCountryTest status=SUCCESS method=RegisterTest.registerFillFormCountryTest()[pri:9, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormUserNameTest()[pri:10, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:26Z" name="registerFillFormUserNameTest" finished-at="2023-03-01T11:05:26Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormUserNameTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:26Z" name="afterMethod" finished-at="2023-03-01T11:05:26Z" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormUserNameTest status=SUCCESS method=RegisterTest.registerFillFormUserNameTest()[pri:10, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormPasswordTest()[pri:11, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:26Z" name="registerFillFormPasswordTest" finished-at="2023-03-01T11:05:26Z" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormPasswordTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:26Z" name="afterMethod" finished-at="2023-03-01T11:05:26Z" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormPasswordTest status=SUCCESS method=RegisterTest.registerFillFormPasswordTest()[pri:11, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormCPasswordTest()[pri:12, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:26Z" name="registerFillFormCPasswordTest" finished-at="2023-03-01T11:05:26Z" duration-ms="246" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PAssword and con.password does not match']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SANGEETHA-PC', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 603b92653d707459c90f9b72c3200742
+*** Element info: {Using=xpath, value=//span[text()='PAssword and con.password does not match']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PAssword and con.password does not match']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SANGEETHA-PC', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 603b92653d707459c90f9b72c3200742
+*** Element info: {Using=xpath, value=//span[text()='PAssword and con.password does not match']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+at pageobjects.RegisterPage.getConfirmPassText(RegisterPage.java:168)
+at tests.RegisterTest.registerFillFormCPasswordTest(RegisterTest.java:130)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormCPasswordTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:26Z" name="afterMethod" finished-at="2023-03-01T11:05:27Z" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormCPasswordTest status=FAILURE method=RegisterTest.registerFillFormCPasswordTest()[pri:12, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFormSubmitBtnTest()[pri:13, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:27Z" name="registerFormSubmitBtnTest" finished-at="2023-03-01T11:05:32Z" duration-ms="4956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFormSubmitBtnTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:32Z" name="afterMethod" finished-at="2023-03-01T11:05:32Z" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFormSubmitBtnTest status=SUCCESS method=RegisterTest.registerFormSubmitBtnTest()[pri:13, instance:tests.RegisterTest@1a75e76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.RegisterTest@1a75e76a]" started-at="2023-03-01T11:05:32Z" name="afterTest" finished-at="2023-03-01T11:05:32Z" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
