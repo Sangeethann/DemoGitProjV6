@@ -8,7 +8,7 @@ import pageobjects.RegisterPage;
 import utilities.Base;
 
 
-public class LoginTest extends Base {
+public class HomeTest1 extends Base {
 
 	RegisterPage obj;
 	//WebElement cPassElem;
@@ -20,15 +20,8 @@ public class LoginTest extends Base {
 		obj.registerDetails();
 
 	}
+
 	@Test(priority=15)
-	public void register1() {
-
-		obj=new RegisterPage(driver);
-		obj.registerDetails();
-
-	}
-
-	@Test(priority=1)
 	public void registerFillFormFirstNameTest() {
 
 		obj=new RegisterPage(driver);
@@ -142,30 +135,6 @@ public class LoginTest extends Base {
 
 	@Test(priority=13)
 	public void registerFormSubmitBtnTest() {
-
-		obj=new RegisterPage(driver);
-		obj.registerFillFormSubmitBtn();
-		
-		String actUrl=obj.registrationSuccessStatusCheck();
-		Assert.assertEquals(actUrl, "https://demo.guru99.com/test/newtours/register_sucess.php");
-		System.out.println("Successfully Registered");
-
-	}
-	
-	@Test(priority=16)
-	public void registerFormSubmitBtnTest1() {
-
-		obj=new RegisterPage(driver);
-		obj.registerFillFormSubmitBtn();
-		
-		String actUrl=obj.registrationSuccessStatusCheck();
-		Assert.assertEquals(actUrl, "https://demo.guru99.com/test/newtours/register_sucess.php");
-		System.out.println("Successfully Registered");
-
-	}
-	
-	@Test(priority=17)
-	public void registerFormSubmitBtnTest2() {
 
 		obj=new RegisterPage(driver);
 		obj.registerFillFormSubmitBtn();
