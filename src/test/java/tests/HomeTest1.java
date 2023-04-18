@@ -13,6 +13,7 @@ public class HomeTest1 extends Base {
 	RegisterPage obj;
 	//WebElement cPassElem;
 
+
 	@Test(priority=14)
 	public void register() {
 
@@ -21,7 +22,9 @@ public class HomeTest1 extends Base {
 
 	}
 
-	@Test(priority=15)
+
+
+	@Test(priority=1)
 	public void registerFillFormFirstNameTest() {
 
 		obj=new RegisterPage(driver);

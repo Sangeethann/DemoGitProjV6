@@ -20,7 +20,9 @@ public class LoginTest extends Base {
 		obj.registerDetails();
 
 	}
+
 	@Test(priority=15)
+
 	public void register1() {
 
 		obj=new RegisterPage(driver);
@@ -151,6 +153,7 @@ public class LoginTest extends Base {
 		System.out.println("Successfully Registered");
 
 	}
+
 	
 	@Test(priority=16)
 	public void registerFormSubmitBtnTest1() {
@@ -163,6 +166,7 @@ public class LoginTest extends Base {
 		System.out.println("Successfully Registered");
 
 	}
+
 	
 	@Test(priority=17)
 	public void registerFormSubmitBtnTest2() {
@@ -175,6 +179,7 @@ public class LoginTest extends Base {
 		System.out.println("Successfully Registered");
 
 	}
+
 
 
 }
