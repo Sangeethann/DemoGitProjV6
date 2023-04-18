@@ -8,21 +8,18 @@ import pageobjects.RegisterPage;
 import utilities.Base;
 
 
-public class HomeTest1 extends Base {
+public class HomeTest extends Base {
 
 	RegisterPage obj;
 	//WebElement cPassElem;
 
-
-	@Test(priority=14)
+	@Test(priority=0)
 	public void register() {
 
 		obj=new RegisterPage(driver);
 		obj.registerDetails();
 
 	}
-
-
 
 	@Test(priority=1)
 	public void registerFillFormFirstNameTest() {
